@@ -1,0 +1,28 @@
+body {
+    text-decoration=none;
+    background-color:#FFC000;
+}
+
+a
+{
+text-decoration:none;
+color: #EEEEEE;
+font-family:Bariol,Helvetica, Sans-Serif;
+color:#EEEEEE;
+text-align:center;
+padding-left: 2px;
+}
+
+// Usage
+.container {
+  width: 940px;
+  .center-block();
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	line-height: 1;
+	width: 100%;
+}
